@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <script src="js/jquery-2.1.3.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>じゃんけん</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>さーて、来週のサザエさんは・・・</h1>
+    </header>
+
+    <main>
+        <p id="user_hand">3本勝負！どの手を出しますか？アイコンをクリック！</p>
+        <ul>
+         <div id="button_icon">
+            <button id="gu_btn"><img id="gu_icon" src="img/sazae_gu_icon.png" alt=""></button>
+            <button id="cho_btn"><img id="cho_icon" src="img/sazae_choki_icon.png" alt=""></button>
+            <button id="par_btn"><img id="par_icon" src="img/sazae_par_icon.png" alt=""></button>
+         </div>
+        </ul>
+        <p id="vs">VS</p>
+        <p id="com_hand">サザエさんの手</p>
+        <div id="com_icon_field">
+         <img id="com_icon">
+        </div>
+        <p id="com_result">結果は・・・</p>
+        <p id="judgement"></p>
+        <p id="final_judgement"></p>
+        <div id="win_lose">
+         <span id="win"></span>
+         <span>勝</span>
+         <span id="lose"></span>
+         <span>敗</span>
+        </div>
+        <a href="#" id="border_btn01">もう１回勝負</a>
+
+        <audio id="sound" src="audio/sazae_audio.mp4"></audio>
+     </div>
+    </main>
+
+    <footer></footer>
+    <script src="js/janken02.js"></script>
+    
+</body>
+
+</html>
